@@ -1,77 +1,40 @@
-# PATTANI FLOODREADY
+# PATTANI FLOODREADY | เตรียมพร้อมรับอุทกภัยท่าเรือปัตตานี
 
-**Pattani Flood Preparedness & Response Project**
+**โครงการเตรียมพร้อมและประสานการตอบโต้เหตุอุทกภัย เครือข่ายช่องทางเข้าออกประเทศท่าเรือปัตตานี**
 
-A zero-additional-meeting-budget, digital-first preparedness project for Pattani, with a focus on multi-agency coordination at the Pattani Port Point of Entry (PoE), flood preparedness, continuity of essential functions, and participatory tabletop exercises.
+> เตรียมพร้อมก่อนเกิดเหตุ ไม่จำเป็นต้องรอให้มีงบประชุมเพิ่ม
 
-> **Preparedness should not wait for a meeting budget.**
+**สถานะ:** โครงการระหว่างพัฒนา / ร่างเพื่อหารือ ไม่ใช่ SOP หรือคำสั่งราชการที่ได้รับอนุมัติ (ปรับปรุง 9 ตุลาคม 2569)
 
-## Purpose
+## เริ่มอ่านตรงนี้
+1. 🌊 **[กรอบการเตรียมพร้อมและตอบโต้เหตุอุทกภัย (ภาษาไทย)](04-response-framework/กรอบตอบโต้อุทกภัยท่าเรือปัตตานี.md)** — วัตถุประสงค์ เครือข่าย บทบาท แผน A/B/C/D การสื่อสาร SITREP และเช็กลิสต์ก่อนใช้จริง
+2. 🎭 **[สถานการณ์จำลอง TTX แบบหลายหน่วยงาน (ภาษาไทย)](05-scenarios-ttx/สถานการณ์ฝึกน้ำท่วมท่าเรือปัตตานี.md)** — 10 Inject ตั้งแต่ฝนหนัก ถนนท่วม เรือขอเข้า ลูกเรือป่วย ไฟดับ ข่าวลือ จนถึงอพยพและฟื้นฟู
+3. 📚 **[แหล่งข้อมูลประกอบการเฝ้าระวัง](09-references/floodthai-pattani-source.md)** — ใช้ข้อมูลประกอบและตรวจทานกับหน่วยงานต้นทางเสมอ
 
-This repository is being developed as a practical and reusable preparedness model that can be studied, exercised, improved, and adapted by network partners.
+## เป้าหมาย
+- รวบรวมหลักฐานน้ำท่วมจริงย้อนหลัง 3 ปีและตรวจสอบแหล่งข้อมูล
+- ทบทวนกฎหมาย อำนาจหน้าที่ และการประสานงานของแต่ละหน่วย
+- พัฒนากรอบการตอบโต้ที่ให้ความปลอดภัยของชีวิตมาก่อน
+- ซ้อมแผนบนโต๊ะ (TTX) ผ่าน Zoom โดยใช้งบประชุมเพิ่มเติม 0 บาท
+- สรุป AAR และนำช่องว่างไปพัฒนา SOP ที่หน่วยงานเกี่ยวข้องร่วมพิจารณา
 
-The project is designed around four ideas:
+## วิธีดำเนินงาน
+หลักฐานจริง → ประเมินความเสี่ยง → กฎหมายและอำนาจ → ผังประสานงาน → แผน A/B/C/D → สถานการณ์จำลองและ Inject → TTX → AAR → ปรับปรุง SOP → ทดสอบซ้ำ
 
-1. **Evidence before exercise** — review relevant literature, doctrine, plans, laws, and operational guidance before designing scenarios.
-2. **Network before silo** — each organization should understand not only its own role, but also how it connects with others.
-3. **Exercise to discover gaps** — tabletop exercises are used to identify strengths, dependencies, communication gaps, and improvement actions.
-4. **Zero additional meeting budget** — use existing digital tools and existing organizational resources wherever possible.
+## โครงสร้างคลัง
+| โฟลเดอร์ | เนื้อหา |
+|---|---|
+| `01-project-proposal/` | ข้อเสนอโครงการ |
+| `02-literature-review/` | ทบทวนเอกสาร กฎหมาย หลักฐาน |
+| `03-knowledge-refresher/` | เอกสารทบทวนความรู้ก่อนฝึก |
+| `04-response-framework/` | โครงสร้างตอบโต้ แผน A/B/C/D |
+| `05-scenarios-ttx/` | สถานการณ์และบัตรเหตุการณ์ TTX |
+| `06-aar-improvement/` | AAR และแผนปรับปรุง |
+| `07-assessment/` | ประเมินผลการเรียนรู้ |
+| `08-media-toolkit/` | สื่อ เช็กลิสต์ แม่แบบ |
+| `09-references/` | แหล่งอ้างอิงและหลักฐาน |
 
-## Project Flow
+## หลักการ
+**Evidence before exercise • Network before silo • Exercise to discover gaps • Zero additional meeting budget**
 
-```text
-Literature Review
-      ↓
-Conceptual Framework
-      ↓
-Knowledge Refresher
-      ↓
-Pattani Port Response Model
-      ↓
-Plan A / B / C / D
-      ↓
-Participatory Scenario & TTX
-      ↓
-After Action Review
-      ↓
-Improvement Plan
-      ↓
-Post-test / Learning Assessment
-      ↓
-Reusable Media & Toolkit
-```
-
-## Repository Structure
-
-- `01-project-proposal/` — draft real-world project proposal
-- `02-literature-review/` — literature, doctrine, laws, frameworks, and evidence notes
-- `03-knowledge-refresher/` — concise learning material before exercise
-- `04-response-framework/` — command, coordination, information flow, deployment, and Plan A/B/C/D
-- `05-scenarios-ttx/` — scenarios, injects, facilitator guide, participant workbook
-- `06-aar-improvement/` — AAR, gap analysis, improvement plan
-- `07-assessment/` — pre/post tests and learning assessment
-- `08-media-toolkit/` — infographics, checklists, templates, communication materials
-- `09-references/` — source list and citation notes
-
-## Initial Evidence Base
-
-The first review round will prioritize:
-- WHO Health Emergency and Disaster Risk Management (Health EDRM)
-- WHO Public Health Emergency Operations Centre (PHEOC) framework
-- WHO training and exercise guidance
-- WHO Emergency Response Framework
-- WHO 2025 National Health Emergency Alert and Response Framework
-- WHO 2026 Health Emergency Preparedness and Response Capabilities
-- International Health Regulations and Point of Entry preparedness requirements
-- Tabletop exercise methodology and exercise evaluation guidance
-- Thai disaster management, public health emergency, provincial and local plans relevant to Pattani
-- Roles and mandates of agencies participating in the Pattani Port channel/PoE network
-
-## Working Principle
-
-This repository is a **working project**, not a finished doctrine. Content should be updated when better evidence, local data, exercise findings, or official guidance become available.
-
----
-
-**Status:** Initial scaffold  
-**Year:** 2026
+**หมายเหตุความปลอดภัย:** ตัวเลข เวลา ผู้ป่วย และเหตุการณ์ในเอกสารฝึกเป็นเรื่องสมมติ ไม่ใช่ข่าวหรือคำเตือนจริง; การเปลี่ยนระดับปฏิบัติการและการอพยพต้องดำเนินการตามอำนาจหน้าที่และแผนที่อนุมัติแล้ว
